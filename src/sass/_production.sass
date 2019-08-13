@@ -1,0 +1,62 @@
+
+.make-slider
+	margin-top: 87px
+	&-small
+		width: 535px
+		padding-left: 26px
+		padding-right: 26px
+		.slick-slide
+			filter: brightness(50%) !important
+			border: 1px solid red
+		.slick-current
+			filter: brightness(100%) !important
+		&_item
+			padding-left: 3px
+			padding-right: 3px
+			
+
+
+				
+.make
+	&-block
+		margin-left: -100px
+		width: 432px
+		text-align: justify
+	.row
+		align-items: center
+	&-header
+		h2
+			color: #fff
+			font-size: 28px
+			font-weight: 400
+			background-color: $active-color
+			padding: 20px 185px 20px 58px
+
+.button
+	position: relative
+
+.nextt 
+	position: absolute
+	background: url(../img/make/next1.png) center no-repeat
+	right: 0px
+	top: 0px
+	width: 22px
+	height: 80px
+	border: 1px solid $active-color
+	outline: none
+	cursor: pointer
+	&:hover
+		background: $active-color url(../img/make/next.png) center no-repeat
+.prevv
+	position: absolute
+	background: url(../img/make/back1.png) center no-repeat
+	right: 512px
+	top: 0px
+	width: 22px
+	height: 80px
+	border: 1px solid $active-color
+	outline: none
+	cursor: pointer
+	&:hover
+		background: $active-color url(../img/make/back.png) center no-repeat
+

@@ -1,0 +1,34 @@
+.header
+	&-logo
+		background: url(../img/header-logo.png) center no-repeat
+		background-size: 100%
+		width: 191px
+		height: 61px
+	padding: 15px 0
+	height: 96px
+	&-contacts
+		display: flex
+		justify-content: flex-end
+		align-items: center
+		&__phone
+			font-size: 22px
+			margin-right: 13px
+			font-family: 'robotomedium'
+			&:first-child
+				border-right: 1px solid #cfcfd0
+				padding-right: 13px
+			&s 
+				display: flex
+
+@keyframes move
+	0%
+		opacity: 0
+		transform: translate3d(0, 100%, 0) rotateY(-90deg);
+	100%
+		opacity: 1
+
+.animate
+	animation-name: move
+	animation-duration: 1s
+
+
